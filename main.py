@@ -312,6 +312,7 @@ def check_cmd():
                 user_msgs.clear()
                 admin_usr.clear()
                 admin_passw.clear()
+                ticket_owners.clear()
                 admin_usr = ["Admin", "Root"]
                 admin_passw = ["123", "abc"]
                 usr_perms = ["admin", "admin"]
