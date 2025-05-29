@@ -427,6 +427,7 @@ def myt_ls(limit=None):
     for ch, i in created:
         print(f"{ch} Ticket {i}: {channels[ch].tickets[i]}")
 
+#Main
 while True:
     while True:
         if not Login():
